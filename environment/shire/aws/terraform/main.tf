@@ -214,8 +214,8 @@ connection {
 
     provisioner "remote-exec" {
     inline = [
+      "sudo add-apt-repository universe && sudo apt-get -qq update",
       "sudo git clone https://github.com/jsecurity101/ApacheGuacamole.git",
-      "sudo apt-get install libcairo2-dev libjpeg62-dev libpng12-dev libossp-uuid-dev libfreerdp-dev libpango1.0-dev libssh2-1-dev libssh-dev tomcat7 tomcat7-admin tomcat7-user -y",
       "cd ApacheGuacamole",
       "sudo bash ApacheGuacamole.sh",
       "cd ~/",
