@@ -1,3 +1,5 @@
+## Note: No longer supporting cloud infrastructure. 
+
 # Mordor Gates
 
 ![mordor_logo](./docs/source/_static/mordor-logo.png)
